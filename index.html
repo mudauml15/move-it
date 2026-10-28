@@ -16,11 +16,49 @@
         --color-primary: #7001fd;
         --color-secondary: #555555;
         --color-text: #c2c2c2;
-        --color-background:#EEEEEE;
+        --color-background: #eeeeee;
       }
     </style>
   </head>
   <body>
-    <h1 class="bg-primary">index page</h1>
+    <section class="flex w-screen h-screen bg-background">
+      <section class="bg-white  w-[480px] pt-40">
+        <div class=" flex justify-center mb-4">
+          <img class="mt-10" src="./assets/logo.svg" alt="logo" />
+        </div>
+        <div class=" flex justify-center mb-5">Login into your account</div>
+        <div class="  flex justify-center">
+          <div class="text-sm text-gray-700">
+            Email Address
+            <div>
+              <div class="bg-[#F1F3F6] :placeholder pl-4 text-sm  flex rounded mt-2  ">
+                <input
+                class=" w-40 sm:w-45 md:w-50 lg:w-70 xl:w-90 h-10 border-none outline-none focus:outline-none focus:ring-0 "
+                  type="text"
+                  name="text"
+                  id="text"
+                  placeholder="murendeni@email.com"
+                />
+                <div class="bg-primary flex justify-center items-center rounded w-10">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>mail-outline-rounded</title>
+                    <path
+                      fill="#ffffff"
+                      d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zM20 8l-7.475 4.675q-.125.075-.262.113t-.263.037t-.262-.037t-.263-.113L4 8v10h16zm-8 3l8-5H4zM4 8v.25v-1.475v.025V6v.8v-.012V8.25zv10z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>right</section>
+    </section>
   </body>
 </html>
