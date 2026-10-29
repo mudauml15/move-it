@@ -22,28 +22,34 @@
   </head>
   <body>
     <section class="flex w-screen h-screen bg-background">
-      <section class="bg-white  w-[480px] pt-40">
-        <div class=" flex justify-center mb-4">
-          <img class="mt-10" src="./assets/logo.svg" alt="logo" />
+      <section class="bg-white w-[480px] pt-40">
+        <div class="flex justify-center mb-5">
+          <img class="mt-10 h-15 w-40 " src="./assets/logo.svg" alt="logo" />
         </div>
-        <div class=" flex justify-center mb-5">Login into your account</div>
-        <div class="  flex justify-center">
-          <div class="text-sm text-gray-700">
+        <div class="flex justify-center mb-10  font-bold">Login into your account</div>
+        <div class="flex justify-center">
+          
+          <!-- email field -->
+            <div class="text-sm text-gray-700">
             Email Address
             <div>
-              <div class="bg-[#F1F3F6] :placeholder pl-4 text-sm  flex rounded mt-2  ">
+              <div
+                class="bg-[#F1F3F6] :placeholder pl-4 text-xs flex rounded mt-2"
+              >
                 <input
-                class=" w-40 sm:w-45 md:w-50 lg:w-70 xl:w-90 h-10 border-none outline-none focus:outline-none focus:ring-0 "
+                  class="w-40 sm:w-45 md:w-50 lg:w-70 xl:w-90 h-10 border-none outline-none focus:outline-none focus:ring-0"
                   type="text"
                   name="text"
                   id="text"
                   placeholder="murendeni@email.com"
                 />
-                <div class="bg-primary flex justify-center items-center rounded w-10">
+                <div
+                  class="bg-primary flex justify-center items-center rounded w-10"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
+                    width="1.5em"
+                    height="1.5em"
                     viewBox="0 0 24 24"
                   >
                     <title>mail-outline-rounded</title>
@@ -55,8 +61,51 @@
                 </div>
               </div>
             </div>
-          </div>
+
+<!-- password fieldd -->
+            <div class="text-sm text-gray-700 mt-5">
+            Password
+            <div>
+              <div
+                class="bg-[#F1F3F6] :placeholder pl-4 text-xs flex rounded mt-2"
+              >
+                <input
+                  class="w-40 sm:w-45 md:w-50 lg:w-70 xl:w-90 h-10 border-none outline-none focus:outline-none focus:ring-0"
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Enter your password"
+                />
+                <div
+                  class="bg-primary flex justify-center items-center rounded w-10"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><title>padlock</title><path fill="#ffffff" d="M12 13a1.49 1.49 0 0 0-1 2.61V17a1 1 0 0 0 2 0v-1.39A1.49 1.49 0 0 0 12 13m5-4V7A5 5 0 0 0 7 7v2a3 3 0 0 0-3 3v7a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-7a3 3 0 0 0-3-3M9 7a3 3 0 0 1 6 0v2H9Zm9 12a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1Z"/></svg>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-end mt-2 ">
+                <a class="text-xs underline" href="#"> Forgot password?</a>
+            </div>
+             <div
+                class="bg-primary h-10 flex justify-center items-center text-xs flex rounded mt-10 text-white"
+              >
+              Login now
+              </div>
+              <div class="flex items-center gap-5 mt-5">
+                <div class="border-b border-gray-300 mt-5 w-[50%]"></div> <span class="pt-5 text-xs text-gray-400">OR</span>
+                <div class="border-b border-gray-300 mt-5 w-[50%]"></div>
+              </div>
+                    
+              <div
+                class="border h-10 flex justify-center items-center text-xs flex rounded mt-10 text-primary"
+              >
+              Signup Now
+              </div>
+
         </div>
+        </div>
+
+        
       </section>
       <section>right</section>
     </section>
